@@ -1,6 +1,6 @@
 node('master') {
 
-    def servicePrincipalId = '975503b0-161f-4b09-a557-36d20e417db5'
+    def servicePrincipalId = 'c73d7e93-fb1f-4c88-80c0-0ef19e0151e7'
     def resourceGroup = 'Jenkins'
     def aks = 'jenkins-bg'
 
