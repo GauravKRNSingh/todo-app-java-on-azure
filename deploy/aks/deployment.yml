@@ -3,6 +3,10 @@ kind: Deployment
 metadata:
   name: todoapp-deployment-${TARGET_ROLE}
 spec:
+  selector:
+    matchlabels:
+      app: todoapp
+      role: ${TARGET_ROLE}
   replicas: 2
   template:
     metadata:
